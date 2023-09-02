@@ -1,0 +1,12 @@
+.header{
+    border: 2px solid rgb(3, 175, 46);
+    color: black;
+    height: 25%;
+    width: 100%;
+    display: flex;
+
+}
+ul{
+    list-style-type: none;
+    display: inline;
+}
