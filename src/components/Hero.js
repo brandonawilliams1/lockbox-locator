@@ -1,5 +1,5 @@
 import React from 'react'
-import astound_logo from '../assets/imges/Astound-Simbolo-500x281.png'
+import astound_logo from '../assets/imges/Astound-Simbolo-500x281_new.png'
 function Hero() {
   return (
     <div className="logo">

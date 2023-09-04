@@ -1,12 +1,13 @@
 .header{
     border: 2px solid rgb(3, 175, 46);
     color: black;
-    height: 25%;
+    height: 4vh;
     width: 100%;
     display: flex;
+    justify-content: end;
+    gap: 1;
 
 }
-ul{
-    list-style-type: none;
-    display: inline;
+#address__input{
+    border-radius: 10px;
 }

@@ -4,11 +4,11 @@ import '../assets/header.css';
 function Header() {
   return (
     <nav className='header'>
-        <ul>
-            <li>Home</li>
-            <li>Address list</li>
-            <li>Contact</li>
-        </ul>
+      <form action='/'>
+        <label htmlFor='Lbox__search'>Address Lookup</label>
+        <input type="text" id="address__input" name="search" placeholder='Enter Address' />
+        <input type="submit" value="Submit" />
+      </form>
     </nav>
   )
 }

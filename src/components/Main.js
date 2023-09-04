@@ -1,17 +1,16 @@
 import React from "react";
 import "../assets/main.css";
+import Header from "./Header";
 import Hero from "./Hero";
+import Footer from "./Footer";
 
 function Main() {
   return (
     <>
-      
+      <Header />  
       <section className='main'>
         <Hero />
         <div className='entry__form__row'>
-
-          <h1>LOCKBOX LOCATOR</h1>
-
           <form action='/'>
             <label htmlFor='address'>Address</label>
             <input type='text' id='address' name='address' />
@@ -34,7 +33,7 @@ function Main() {
         </div>
         <Hero />
       </section>
-      
+      <Footer />
     </>
   );
 }
