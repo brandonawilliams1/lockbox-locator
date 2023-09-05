@@ -3,18 +3,27 @@
     display: flex;
     flex-direction: row-reverse;
     margin: 0% 20%;
+    padding: 0% 1rem;
     align-items: center;
     justify-content: space-between;
     height: 100vh;
-    width: 60%;
+    
+}
+.entry__form__row{
+    border: 2px solid black;
+    background-color: rgba(245, 245, 245, 0.193);
+    width: 50%;
+    height: 50%;
 }
 .logo{
     background-color: rgba(253, 253, 253, 0);
     border: 2px solid black;
     width: min-content;
-    height: 75%;
+    height: 80%;
 }
-p{
+.astound__name{
     text-align: center;
     font-size: 4rem;
+    font-family: fantasy;
+    color: rgb(247, 247, 247);
 }
