@@ -6,7 +6,10 @@
    
 }
 .app{
-    background-color: rgb(71,50,147);
+    background: rgb(151,63,255);
+    background: linear-gradient(190deg, rgb(93, 0, 199) 40%, rgba(2,244,64,1) 81%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+    width: 100vw;
     
 }
 html, body{
