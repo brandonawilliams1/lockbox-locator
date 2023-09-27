@@ -1,7 +1,7 @@
 .header{
     border: 2px solid rgb(3, 175, 46);
     color: black;
-    height: 4vh;
+    /* height: 2rem; */
     width: 100%;
     display: flex;
     justify-content: end;
@@ -11,9 +11,9 @@
     
 
 }
-/* form{
+.search_form{
     width: 25rem;
-} */
+}
 nav label{
     font-family: fantasy;
     color: #02F446;

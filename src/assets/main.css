@@ -2,29 +2,44 @@
     border: 2px solid rgb(0, 0, 0);
     display: flex;
     flex-direction: row-reverse;
-    margin: 0.75% 20%;
-    padding: 0% 1rem;
+    padding: 0% auto;
     align-items: center;
     justify-content: space-between;
-    height: 90vh;
-    min-width: 300px;
+    height: 100svh;
+    min-width: 280px;
+    min-height:  650px;
+    /* width: 0 auto;                 */
     
 }
 .entry__form__row{
-    border: 2px solid black;
+    border: 2px solid rgb(134, 16, 16);
     background-color: rgba(245, 245, 245, 0.193);
-    width: 60%;
-    height: 60%;
+    width: auto;
+    /* height: 60%; */
+    text-align: center;    
+
 }
 .logo{
     background-color: rgba(253, 253, 253, 0);
-    border: 2px solid black;
-    width: min-content;
-    height: 80%;
+    border: 2px solid rgb(117, 255, 4);
+    width: 0 auto;
+    /* height: auto; */
 }
+
 .astound__name{
     text-align: center;
-    font-size: 4rem;
+    font-size: clamp(1rem, 3rem, 4rem);
     font-family: fantasy;
     color: rgb(247, 247, 247);
+}
+img{
+    width: 10vw;
+}
+.mb-3{
+    width: 19cqi;
+    margin: 0 auto;
+}
+form{
+    margin: 0 auto;
+    min-width: 200px;
 }
