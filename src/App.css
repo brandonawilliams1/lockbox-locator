@@ -8,10 +8,7 @@
 .app{
     background: rgb(151,63,255);
     background: linear-gradient(190deg, rgba(18,10,177,100) 20%, rgba(9,142,87,100) 50%, rgba(2,244,64,100) 100%);
-    /* min-height: 89rem;
-    width: 100vw;
-    min-width: 320px; */
-    
+
 }
 
 
