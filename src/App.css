@@ -1,14 +1,22 @@
 *{
     box-sizing: border-box;
-    padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
-
-   
+    margin: 0;
+    padding: 0%;
 }
-.app{
+html, body{
     background: rgb(151,63,255);
     background: linear-gradient(190deg, rgba(18,10,177,100) 20%, rgba(9,142,87,100) 50%, rgba(2,244,64,100) 100%);
-
+    background-repeat: no-repeat;
+    height: 100%;
+    
 }
+.app{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+}
+
 
 

@@ -1,7 +1,6 @@
 .header{
     border: 2px solid rgb(3, 175, 46);
     color: black;
-    /* height: 2rem; */
     width: 100%;
     display: flex;
     justify-content: end;
